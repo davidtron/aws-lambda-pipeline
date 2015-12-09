@@ -1,0 +1,37 @@
+{
+  "name": "aws-lambda-pipeline",
+  "version": "0.0.1",
+  "description": "Template project for AWS Lambda and API",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-install": "^0.6.0",
+    "gulp-zip": "^3.0.2",
+    "node-aws-lambda": "^0.1.6",
+    "run-sequence": "^1.1.5",
+    "sinon": "^1.17.2",
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "test": "node test/index-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidtron/aws-lambda-pipeline.git"
+  },
+  "keywords": [
+    "AWS-Lambda",
+    "AWS-API"
+  ],
+  "author": "David Parry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidtron/aws-lambda-pipeline/issues"
+  },
+  "homepage": "https://github.com/davidtron/aws-lambda-pipeline#readme"
+}
