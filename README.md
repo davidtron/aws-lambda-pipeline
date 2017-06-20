@@ -17,7 +17,7 @@ Moving forward this could be done through the API or using of the [swagger impor
    Description 'Provides access to all API Gateway actions and resources for the associated AWS account'
 
    Policy Document
-   ```
+   ```json
    {
     "Version": "2012-10-17",
     "Statement": [
@@ -31,8 +31,8 @@ Moving forward this could be done through the API or using of the [swagger impor
         ]
       }
     ]
-  }
-  ```
+   }
+   ```
 
 4. Select Groups, create new Group 'lambda-and-api'
 5. From the policy list add 'AWSLambdaFullAccess' and 'APIGatewayAccessPolicy'
