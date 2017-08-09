@@ -31,8 +31,8 @@ Moving forward this could be done through the API or using of the [swagger impor
         ]
       }
     ]
-  }
-  ```
+   }
+   ```
 
 4. Select Groups, create new Group 'lambda-and-api'
 5. From the policy list add 'AWSLambdaFullAccess' and 'APIGatewayAccessPolicy'
@@ -71,8 +71,8 @@ Moving forward this could be done through the API or using of the [swagger impor
         "Resource": "arn:aws:logs:*:*:*"
       }
     ]
-  }
-  ```
+   }
+   ```
 
 12. Create role to allow lambda to execute the code
   In the Details area, choose Roles.
